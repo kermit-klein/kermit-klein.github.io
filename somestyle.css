@@ -1,7 +1,6 @@
 h1 {
     color: #d7f5f0;
     text-align: center;
-    margin-top: 300px;
     font-family: 'Pacifico', cursive;
   }
 
@@ -13,5 +12,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 
 .greet {
     font-size: 2.5em;
+}
+
+div {
+    text-align: center;
 }
 
