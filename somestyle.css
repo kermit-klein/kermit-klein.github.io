@@ -20,7 +20,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 }
 
 .tablepos {
-    margin-left: 200px !important;
+    margin-left: 75px !important;
     color: #d7f5f0 !important;
     font-family: 'Pacifico', cursive !important;
 }
@@ -35,4 +35,33 @@ blockquote {
 .aboutext p {
     font-family:Arial, Helvetica, sans-serif;
     color: #d7f5f0;
+}
+
+.quotes {
+
+    border-radius: 1rem;
+    padding: 1rem;
+    border-width: 4px;
+    border-color: #d7f5f0;
+    border-style: dotted;
+    margin: 0 15%;
+}
+
+
+.container.main {
+    margin-top: 2.0em;
+}
+
+.attached.segment {
+    background-color: rgb(203, 224, 224);
+}
+
+.merchandiseheadline {
+    margin-top: 100px;
+}
+
+.merc {
+
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
 }
