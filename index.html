@@ -1,22 +1,48 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="somestyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <div class="ui fixed menu inverted blue">
+        <a href="./index.html" class="item red">
+          Home
+        </a>
+        <a href="./about.html" class="item red">
+          About Kermit
+        </a>
+        <a href="https://www.google.com" class="item red">
+            Go to Google
+          </a>
+      </div>
 
-      <h1><span class="greet">Hello World</span><br/>
-       <p>My name is Kermit-Klein, trying to learn Github</p>
-      </h1>
-     <div><img src="images/kermitk.jpg" alt="Kermit-Klein"></div>  
+
+        <h1 class="headline"><span class="greet">Hello World</span><br/>
+            <p>My name is Kermit-Klein, trying to learn Github</p>
+        </h1>
+          <div class ="image"><img  src="images/kermitk.jpg" alt="Kermit-Klein"></div>  
+
+
+          <h1 class="ui header tablepos">Kermit The Frog Quotes</h1>
+
+          <div class="ui list tablepos">
+            <div class="item"><blockquote>"It's not easy being green."</blockquote></div>
+            <div class="item"><blockquote>"When green is all there is to be, It could make you wonder why, But why wonder why wonder, I am green and it'll do fine, It's beautiful, and I think it's what I want to be."</blockquote></div>
+            <div class="item"><blockquote>"Here's some simple advice: Always be yourself. Never take yourself too seriously. And beware of advice from experts, pigs and members of Parliament."</blockquote></div>
+          </div>
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Semantic JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 
 </body>
 </html>
